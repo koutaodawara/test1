@@ -51,4 +51,5 @@ production:
   <<: *default
   database: test1_production
   username: test1
+  socket: /var/lib/mysql/mysql.sock
   password: <%= ENV['TEST1_DATABASE_PASSWORD'] %>
